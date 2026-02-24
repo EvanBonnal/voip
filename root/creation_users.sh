@@ -29,6 +29,8 @@ username=$NOM
 password=$MDP
 
 [$NOM](aor_dynamic)
+media_encryption=sdes
+use_ptime=yes
 EOF
 
 done < "$CSV"
